@@ -1,9 +1,9 @@
 # Bank-Marketing-Effectiveness
 Bank Marketing Effectiveness Prediction
-
+![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
 # Project Summary
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. The classification goal is to predict if the client will subscribe a term deposit (variable y).
-
+![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
 # Data Description
 ## <b>Input variables: </b>
 ### <b> Bank Client data: </b>
@@ -31,8 +31,9 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
 
 ### <b>Output variable (desired target):</b>
 * ### y - has the client subscribed a term deposit? (binary: 'yes','no')
-
+![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
 
 # Business Objective
 Predict if a client will subscribe to a term deposit (variable y) based on the input variables provided, such as the client's demographics, job, and financial status, as well as information related to previous marketing campaigns. The goal is to improve the effectiveness of future direct marketing campaigns by identifying which clients are more likely to subscribe to a term deposit.
 
+![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
