@@ -38,9 +38,30 @@ Predict if a client will subscribe to a term deposit (variable y) based on the i
 
 ![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
 
+# Evaluation metrics for classification
+
+In the ML Model Impletentaion use This 6 metrics to evaluate models:
+
+1. Accuracy: the proportion of true results among the total number of cases examined.
+<div align='center'>$Accuracy = \frac{TP+TN}{TP+TN+FP+FN}$</div>
+2. Precision: used to calculate how much proportion of all data that was predicted positive **was** actually positive.
+<div align='center'>$Precision = \frac{TP}{TP+FP}$</div>
+3. Recall: used to calculate how much proportion of actual positives is correctly classified.
+<div align='center'>$Recall = \frac{TP}{TP+FN}$</div>
+4. F1 score: a number between 0 and 1 and is the harmonic mean of precision and recall.
+<div align='center'>$F1 = \frac{2TP}{2TP+FP+FN}$</div>
+5. Cohen Kappa Score: Cohen's kappa measures the agreement between two raters who each classify N items into C mutually exclusive categories.
+<div align='center'>$\kappa = \frac{p_o-p_e}{1-p_e}$</div>
+    where $p_o$ is the empirical probability of agreement on the label assigned to any sample (the observed agreement ratio), and $p_e$ is the expected agreement when both annotators assign labels randomly. $p_e$ is estimated using a per-annotator empirical prior over the class labels.
+6. Area Under Curve (AUC): indicates how well the probabilities from the positive classes are separated from the negative classes
+
+
+![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
+
 # Conclusion
 
 Logistic regression has the highest performance of the three that we have used till now. It not only performs well in terms of accuracy but also in terms of precision and recall. It has the highest true positives and recall value which indicates that very less number of clints who have shown interest in the term deposit has been predicted inaccurately in our model. Good precision value indicates that our model is bang on in predicting the true positives out of total predicted positives. Since both precision and recall value has better result the f1 score which is the combition of two has also a better number. Better outcomes of true positives will lead to better area under the curve which is evident from the AUC-ROC plot.
+
 ![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
 # Challenges
 * Removing outliers.
