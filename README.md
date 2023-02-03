@@ -37,3 +37,12 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
 Predict if a client will subscribe to a term deposit (variable y) based on the input variables provided, such as the client's demographics, job, and financial status, as well as information related to previous marketing campaigns. The goal is to improve the effectiveness of future direct marketing campaigns by identifying which clients are more likely to subscribe to a term deposit.
 
 ![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
+
+# Conclusion
+
+Logistic regression has the highest performance of the three that we have used till now. It not only performs well in terms of accuracy but also in terms of precision and recall. It has the highest true positives and recall value which indicates that very less number of clints who have shown interest in the term deposit has been predicted inaccurately in our model. Good precision value indicates that our model is bang on in predicting the true positives out of total predicted positives. Since both precision and recall value has better result the f1 score which is the combition of two has also a better number. Better outcomes of true positives will lead to better area under the curve which is evident from the AUC-ROC plot.
+![rainbow](https://user-images.githubusercontent.com/85065799/204543278-26c507b6-400a-42e0-852f-2e09362f6e12.png)
+# Challenges
+* Removing outliers.
+  * Choosing the right approach for segmentation.
+  * Choosing the right ML models and evaluation metrics.
